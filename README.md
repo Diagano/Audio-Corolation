@@ -1,4 +1,4 @@
-Basic audio file offset matching, using cross corellation over windows RMS energy.
+Basic audio file offset matching, using cross corellation over windowed RMS energy.
 
 Steps:
 1. Decode both files to raw PCM (Using ffmpeg-python, ffmpeg required in Path)
